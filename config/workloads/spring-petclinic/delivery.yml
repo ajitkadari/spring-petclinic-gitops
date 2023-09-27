@@ -50,7 +50,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: ajtanzuregistry.azurecr.io/workloads/spring-petclinic-workloads@sha256:2d36e3babcba876533c52ea2b1c6fc3b79244fe4df089b4d326311e1091c3d01
+        image: ajtanzuregistry.azurecr.io/workloads/spring-petclinic-workloads@sha256:2ce9a71638ac39a4921567aff2a7c16f6ae64997b780f55061b5e084f3274233
         name: workload
         ports:
         - containerPort: 8080
